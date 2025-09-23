@@ -1,7 +1,8 @@
 # Network_Packet_Sniffer
-A custom-made packet sniffer to monitor the user's network traffic and analyze for cybersecurity threats. The primary objective of this project is to understand how attacks are conducted at the network layer and to detect them. This was a standalone project on LinkedIn Learning.
+A custom-built packet sniffer to monitor the user's network traffic and analyze for cybersecurity threats. The primary objective of this project is to understand how attacks are conducted at the network layer and detect them. This was a standalone project on LinkedIn Learning.
 
 ## Description
+As stated in the project summary above, this is a custom-built packet sniffer made with Python and Scapy. Analyze packets in the network in real-time and detect patterns associated with SYN flood attacks, ARP spoofing attacks, and DNS spoofing attacks. If any of the attacks are detected, it will print an alert to the terminal and log the attack's information into a "alerts.log" file. It also uses the smtplib module to send the user an email alerting them of the attack with relevant information. This tool can help users identify and respond to security incidents more quickly.
 
 ## Getting Started
 ### Prerequisites
