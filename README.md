@@ -23,9 +23,13 @@
 
 ### Executing Program
 Open the terminal and in the file's directory, run the command to allow execute permission:
-'''
+```
 chmod +x network_packet_sniffer.py
-'''
+```
+To execute the program, run the command:
+```
+sudo python3 network_packet_sniffer.py
+```
 
 ## Author
 Aide Cuevas (LinkedIn in profile)
