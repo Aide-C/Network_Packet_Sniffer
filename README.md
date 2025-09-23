@@ -38,14 +38,14 @@ Aide Cuevas (LinkedIn in profile)
 
 ## Version History
 *  0.2
-    * 
-    * 
-    * 
+    * Add the ability to log alerts to a log file
+    * Add the ability to send email alerts to the user
+    * Fix SYN detection 
 
 * 0.1
-    * 
-    * 
-    * 
+    * Added SYN detection
+    * Added ARP detection
+    * Added DNS detection
 
 ## License
 This project is licensed under the MIT license - see LICENSE.md file for details
