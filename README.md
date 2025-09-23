@@ -1,4 +1,5 @@
 # Network_Packet_Sniffer
+A custom-made packet sniffer to monitor the user's network traffic and analyze for cybersecurity threats. The primary objective of this project is to understand how attacks are conducted at the network layer and to detect them. This was a standalone project on LinkedIn Learning.
 
 ## Description
 
