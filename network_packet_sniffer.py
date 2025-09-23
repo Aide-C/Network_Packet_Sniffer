@@ -94,7 +94,8 @@ def packet_info(packet):
                     email_alert(alertFour)
             else:
                  trackDns[domain] = webIP
-
+                 
+    print(packet.summary())
 
 
 sniff(prn=packet_info)
