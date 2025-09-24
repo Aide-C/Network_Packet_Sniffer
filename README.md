@@ -38,14 +38,14 @@ Aide Cuevas (LinkedIn in profile)
 
 ## Version History
 *  0.2
-    * Add the ability to log alerts to a log file
-    * Add the ability to send email alerts to the user
-    * Fix SYN detection 
+    * Add the ability to log security alerts as warnings to a log file called 'alerts.log'
+    * Add the ability to send email alerts to the user with smptlib
+    * Fix SYN detection by focusing on the quantity of SYN packets instead of timing
 
 * 0.1
-    * Added SYN detection
-    * Added ARP detection
-    * Added DNS detection
+    * Added SYN flood attack detection, but had errors trying to time the detection every 5 seconds
+    * Added ARP spoofing detection
+    * Added DNS spoofing detection
 
 ## License
 This project is licensed under the MIT license - see LICENSE.md file for details
